@@ -43,7 +43,8 @@ class AppConstants {
   static const String BTN_CUSTOM_IAE = "Custom In-App Event";
   static const String HINT_EVENT_NAME = "Event Name";
   static const String HINT_EVENT_JSON = "Event Param JSON";
-  static const String JSON_EXAMPLE = "";
+  static const String JSON_EXAMPLE =
+      "{\"name\"\: \"Morpheush\",\"job\"\: \"\Leader\",\"id\": \"199\",\"createdAt\": \"2020-02-20T11:00:28.107Z\"}";
   //End Region: IAEPage Constants
   //Start Region: UserInvitePage Constants
   static const String LABEL_USER_INVITE_PAGE = "User Invite Page";

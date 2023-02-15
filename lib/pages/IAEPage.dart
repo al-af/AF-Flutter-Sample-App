@@ -75,32 +75,20 @@ class _IAEPageState extends State<IAEPage> {
               ),
               const SizedBox(height: 10.0),
               TextField(
-                decoration: const InputDecoration(
+                decoration: InputDecoration(
                   hintText: AppConstants.HINT_EVENT_JSON,
+                  suffixIcon: TextButton(
+                    onPressed: () {
+                      setState(() {
+                        eventJsonController.text = AppConstants.JSON_EXAMPLE;
+                      });
+                    },
+                    child: Icon(Icons.description_outlined),
+                  ),
                 ),
                 controller: eventJsonController,
               ),
               const SizedBox(height: 20.0),
-              // ConstrainedBox(
-              //   constraints:
-              //       BoxConstraints(minHeight: 80.0, minWidth: double.infinity),
-              //   child: Container(
-              //     padding: const EdgeInsets.all(16.0),
-              //     decoration: BoxDecoration(
-              //       border: Border.all(
-              //         color: Colors.deepPurple,
-              //         width: 1.5,
-              //       ),
-              //       borderRadius: BorderRadius.circular(15.0),
-              //     ),
-              //     child: Text(
-              //       "logEventResponse",
-              //       maxLines: null,
-              //       style: const TextStyle(
-              //           fontSize: 16.0, fontFamily: 'MuseoSans-300'),
-              //     ),
-              //   ),
-              // ),
               MyCustomButton(
                   onPressed: () {
                     if (eventNameController.text.isNotEmpty &&
