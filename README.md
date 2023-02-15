@@ -1,6 +1,7 @@
 # 🚀 AppsFlyer SDK Sample App for Flutter 📱📱
-This is a sample Flutter app that demonstrates the integration of the AppsFlyer SDK. The app is using version 6.9.3 of the SDK.
-Sample app packageName is com.appsflyer.sdk.support.flutter.demo.af_flutter_sample_app
+This is a sample Flutter app that demonstrates the integration of the AppsFlyer SDK. <br>
+The app is using version 6.9.3 of the SDK. <br>
+Sample app packageName is com.appsflyer.sdk.support.flutter.demo.af_flutter_sample_app <br>
 
 ## 🎁 Features 🎉🎉
 
@@ -13,9 +14,9 @@ This sample app includes the following features:
 <img src="https://user-images.githubusercontent.com/118281047/219003098-557db622-65e9-47a4-b24c-ae2752b4cd7e.png" width="300">
 </div>
 
-When the application is first being launched, the SDK won't start yet as it is in deferred mode by default. 
-This can be changed by switch the "Deferred Start" toggle and re-launch the application.
-The default state is to use deferred start and use UDL instead of GCD for Deferred Deep Linking (and eventually also Direct deep linking).
+When the application is first being launched, the SDK won't start yet as it is in deferred mode by default.  <br>
+This can be changed by switch the "Deferred Start" toggle and re-launch the application. <br>
+The default state is to use deferred start and use UDL instead of GCD for Deferred Deep Linking (and eventually also Direct deep linking). <br>
 
 ### 🌐 Deeplink Feature with UDL or OAOA + GCD 🚪
 <div>
@@ -52,9 +53,8 @@ You can choose between 3 different scenarios:
 <img src="https://user-images.githubusercontent.com/118281047/219003106-4af06445-6471-4044-b892-c08ae3873911.png" width="300">
 </div>
 
-You can now create generated short link via the User Invite feature.
-Make sure to input the correct App Invite OneLink ID in the main screen before starting the SDK and you can override these fields:
-
+You can now create generated short link via the User Invite feature. <br>
+Make sure to input the correct App Invite OneLink ID in the main screen before starting the SDK and you can override these fields: <br>
 1. Media Source (pid, default is af_app_invites)
 2. Channel
 3. Campaign
