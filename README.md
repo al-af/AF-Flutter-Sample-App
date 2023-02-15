@@ -17,6 +17,20 @@ When the application is first being launched, the SDK won't start yet as it is i
 This can be changed by switch the "Deferred Start" toggle and re-launch the application.
 The default state is to use deferred start and use UDL instead of GCD for Deferred Deep Linking (and eventually also Direct deep linking).
 
+### 🌐 Deeplink Feature with UDL or OAOA + GCD 🚪
+<div>
+<img src="https://user-images.githubusercontent.com/118281047/219008592-e165946f-3d5a-40f0-98ae-a1a4cfd0c477.png" width="300">
+<img src="https://user-images.githubusercontent.com/118281047/219008066-ea27312b-befc-4816-90fe-8cb9f40bcbd8.png" width="300">
+</div>
+
+On the main page you can select using UDL or default legacy solution such as OAOA and GCD.<br>
+Configure to your own DEV_KEY and APP_ID inside the AppConstant class.<br>
+For the deeplink configuration:
+<ul> 
+  <li>Android: Make changes inside the AndroidManifest <a href="https://github.com/AppsFlyerSDK/appsflyer-flutter-plugin/blob/master/doc/DeepLink.md#-android-deeplink-setup">(both for URI Scheme and AppLinks)</a></li>
+  <li>iOS: Open the xCode and change to your own Bundle ID and change the Universal Link to your own on the <a href="https://github.com/AppsFlyerSDK/appsflyer-flutter-plugin/blob/master/doc/DeepLink.md#-ios-deeplink-setup">Assosiated Domains section</a></li> 
+</ul>
+
 ### 🎯 In-App Events Testing 🎯
 
 <div>
@@ -68,6 +82,5 @@ For each Platform you will have the following:
   <li> Fetching IDFA and IDFV for iOS 🍎 </li>
 </ul>  
 You have the ability to disableIdentifersCollection 🛡️
-
 
 
